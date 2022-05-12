@@ -5,8 +5,8 @@
  * @version 4.1
  * @description Send Nitro emotes and enable high quality screen sharing without Nitro
  * @website https://vacban.wtf
- * @source https://github.com/oSumAtrIX/BetterDiscordPlugins
- * @updateUrl https://raw.githubusercontent.com/oSumAtrIX/BetterDiscordPlugins/master/NitroEmoteAndScreenShareBypass.plugin.js
+ * @source https://github.com/DrippyHvH/nitro
+ * @updateUrl https://raw.githubusercontent.com/DrippyHvH/nitro/main/NitroEmoteAndScreenShareBypass.plugin.js
  */
 module.exports = (() => {
   const config = {
@@ -14,17 +14,17 @@ module.exports = (() => {
       name: "NitroEmoteAndScreenShareBypass",
       authors: [
         {
-          name: "oSumAtrIX",
+          name: "Drip",
           discord_id: "737323631117598811",
-          github_username: "oSumAtrIX",
+          github_username: "DrippyHvH",
         },
       ],
       version: "4.1",
       description:
         "Send Nitro emojis and enable high quality screen sharing without Nitro",
-      github: "https://github.com/oSumAtrIX/BetterDiscordPlugins",
+      github: "https://github.com/DrippyHvH/nitro",
       github_raw:
-        "https://raw.githubusercontent.com/oSumAtrIX/BetterDiscordPlugins/master/NitroEmoteAndScreenShareBypass.plugin.js",
+        "https://raw.githubusercontent.com/DrippyHvH/nitro/main/NitroEmoteAndScreenShareBypass.plugin.js",
     },
     main: "NitroEmoteAndScreenShareBypass.plugin.js",
   };
