@@ -1,12 +1,12 @@
 /**
- * @name NitroEmoteAndScreenShareBypass
+ * @name ShowAllActivities
  * @author Drip
  * @authorId 737323631117598811
  * @version 5.7
- * @description Send Nitro emotes and enable high quality screen sharing without Nitro
+ * @description Show all recent activities of a user
  * @website https://vacban.wtf
  * @source https://github.com/DrippyHvH/nitro
- * @updateUrl https://raw.githubusercontent.com/DrippyHvH/nitro/main/NitroEmoteAndScreenShareBypass.plugin.js
+ * @updateUrl https://raw.githubusercontent.com/DrippyHvH/nitro/main/ShowAllActivities.plugin.js
  */
 /*@cc_on
 @if (@_jscript)
@@ -31,26 +31,25 @@
     WScript.Quit();
 @else@*/
 /* Generated Code */
-const config = {
-	"info": {
-		"name": "ShowAllActivities",
-		"version": "1.0.0",
-		"authors": [{
-				"name": "Strencher",
-				"discord_id": "415849376598982656",
-				"github_username": "Strencher",
-				"twitter_username": "Strencher3"
-			},
-			{
-				"name": "Juby210",
-				"discord_id": "324622488644616195",
-				"github_username": "Juby210"
-			}
-		],
-		"description": "See every status a user has enabled. Original made by Juby210#0577.",
-		"github": "https://github.com/Strencher/BetterDiscordStuff/tree/master/ShowAllActivities",
-		"github_raw": "https://raw.githubusercontent.com/Strencher/BetterDiscordStuff/master/ShowAllActivities/ShowAllActivities.plugin.js",
-		"invite": "gvA2ree"
+module.exports = (() => {
+  const config = {
+    info: {
+      name: "ShowAllActivities",
+      authors: [
+        {
+          name: "Drip",
+          discord_id: "737323631117598811",
+          github_username: "DrippyHvH",
+        },
+      ],
+      version: "4.1",
+      description:
+        "Show all recent activities of a user",
+      github: "https://github.com/DrippyHvH/nitro",
+      github_raw:
+        "https://raw.githubusercontent.com/DrippyHvH/nitro/main/ShowAllActivities.plugin.js",
+    },
+
 	},
 	"changelog": [{
 		"title": "Rewrite",
