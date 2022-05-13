@@ -42,9 +42,9 @@ module.exports = (() => {
           github_username: "DrippyHvH",
         },
       ],
-      version: "4.1",
+      version: "6.5",
       description:
-        "Send Nitro emojis and enable high quality screen sharing without Nitro",
+        "Platfotm Indicators for other users",
       github: "https://github.com/DrippyHvH/nitro",
       github_raw:
         "https://raw.githubusercontent.com/DrippyHvH/nitro/main/PlatformIndicators.plugin.js",
