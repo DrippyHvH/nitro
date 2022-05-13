@@ -1,10 +1,13 @@
 /**
-* @name PlatformIndicators
-* @displayName PlatformIndicators
-* @authorId 415849376598982656
-* @invite gvA2ree
-* @version 1.2.2
-*/
+ * @name PlatformIndicators
+ * @author Drip
+ * @authorId 737323631117598811
+ * @version 4.1
+ * @description Platfotm Indicators for other users
+ * @website https://vacban.wtf
+ * @source https://github.com/DrippyHvH/nitro
+ * @updateUrl https://raw.githubusercontent.com/DrippyHvH/nitro/main/PlatformIndicators.plugin.js
+ */
 /*@cc_on
 @if (@_jscript)
     
@@ -29,21 +32,22 @@
 @else@*/
 
 module.exports = (() => {
-    const config = {
-        info: {
-            name: "PlatformIndicators",
-            authors: [
-                {
-                    name: "Strencher",
-                    discord_id: "415849376598982656",
-                    github_username: "Strencher",
-                    twitter_username: "Strencher3"
-                }
-            ],
-            version: "1.2.2",
-            description: "Adds indicators for every platform that the user is using. Source code available on the repo in the 'src' folder.",
-            github: "https://github.com/Strencher/BetterDiscordStuff/blob/master/PlatformIndicators/APlatformIndicators.plugin.js",
-            github_raw: "https://raw.githubusercontent.com/Strencher/BetterDiscordStuff/master/PlatformIndicators/APlatformIndicators.plugin.js"
+  const config = {
+    info: {
+      name: "PlatformIndicators",
+      authors: [
+        {
+          name: "Drip",
+          discord_id: "737323631117598811",
+          github_username: "DrippyHvH",
+        },
+      ],
+      version: "4.1",
+      description:
+        "Send Nitro emojis and enable high quality screen sharing without Nitro",
+      github: "https://github.com/DrippyHvH/nitro",
+      github_raw:
+        "https://raw.githubusercontent.com/DrippyHvH/nitro/main/PlatformIndicators.plugin.js",
         },
         changelog: [
             {
